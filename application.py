@@ -11,6 +11,7 @@ app = application
 ridge_model = pickle.load(open('models/ridge.pkl','rb'))
 scaler_model = pickle.load(open('models/scaler.pkl','rb'))
 # Checking fot one change made by anuj
+# Another Change
 
 @app.route('/')
 def index():
