@@ -10,7 +10,7 @@ app = application
 # Import pickle files
 ridge_model = pickle.load(open('models/ridge.pkl','rb'))
 scaler_model = pickle.load(open('models/scaler.pkl','rb'))
-# Checking fot one change made
+# Checking fot one change made by anuj
 
 @app.route('/')
 def index():
